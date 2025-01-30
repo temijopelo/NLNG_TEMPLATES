@@ -1,4 +1,4 @@
-def sds_buyers_email(month, year,adp_id,contact_buyers_link):
+def sds_buyers_email(month, year, adp_id, contact_buyers_link):
     return f"""  <!doctype html>
 <html>
   <body>
@@ -37,7 +37,7 @@ def sds_buyers_email(month, year,adp_id,contact_buyers_link):
                     style="font-size:12px;font-weight:normal;padding:16px 24px 16px 24px"
                   >
                     SDS report for {month} {year} has been created on the
-                    ADPLNG_{year_number}. You can proceed with FOB vessel nomination from
+                    ADPLNG_{year}. You can proceed with the FOB vessel nomination from
                     buyers if it has not been one.
                   </div>
                   <div style="text-align:center;padding:16px 24px 16px 24px">
