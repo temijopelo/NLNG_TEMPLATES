@@ -37,7 +37,7 @@ def fob_vessel_nomination_email(cargo_id, deadline_date,fob_nomination_id,
                   <div
                     style="font-size:14px;font-weight:bold;padding:16px 24px 16px 24px"
                   >
-                    Dear Sir / Madam
+                    Dear Sir/Madam
                   </div>
                   <div
                     style="font-size:13px;font-weight:normal;padding:16px 24px 16px 24px"
