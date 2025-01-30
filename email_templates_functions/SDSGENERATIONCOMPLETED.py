@@ -1,4 +1,4 @@
-def sds_generation_completed_email(month, year,year_number,view_sds_link):
+def sds_generation_completed_email(month, year, view_sds_link):
     return f""" <!doctype html>
 <html>
   <body>
@@ -36,8 +36,8 @@ def sds_generation_completed_email(month, year,year_number,view_sds_link):
                   <div
                     style="font-size:12px;font-weight:normal;padding:16px 24px 16px 24px"
                   >
-                    SDS report for {month} {year} has been created on the ADPLNG_{year_number}.
-                    Kindly confirm the buyers&#x27; financial capability .
+                    SDS report for {month} {year} has been created on the ADPLNG_{year}.
+                    Kindly confirm the buyers&#x27; financial capability.
                   </div>
                   <div style="text-align:center;padding:16px 24px 16px 24px">
                     <a
